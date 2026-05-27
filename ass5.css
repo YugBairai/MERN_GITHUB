@@ -1,0 +1,11 @@
+.parent{
+
+    height: 700px;
+    width: 700px;
+    background-color: red;
+    border-radius: 50%;
+    background-image: url("https://imgs.search.brave.com/tZKjjsM7w6rKBTm7SKKadQfiSmRYMztDiuue0BQsBkg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxMi8x/MS8yMS8xNy8wMi9s/aW9uLTY2ODk4XzY0/MC5qcGc");
+    background-size: cover;
+    border: 10px solid black;
+    
+}
