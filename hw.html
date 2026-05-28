@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Z Index Example</title>
+
+<style>
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+}
+
+.b1{
+    background-color: red;
+    z-index: 1;
+}
+
+.b2{
+    background-color: blue;
+    margin-left: 100px;
+    margin-top: -20px;
+    z-index: 2;
+}
+
+.b3{
+    background-color: green;
+    margin-left: 190px;
+    margin-top: -20px;
+    z-index: 3;
+}
+
+.b4{
+    background-color: yellow;
+    margin-left: 280px;
+    margin-top: -20px;
+    z-index: 4;
+}
+
+.b5{
+    background-color: purple;
+    margin-left: 370px;
+    margin-top: -20px;
+    z-index: 5;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="b1"></div>
+<div class="b2"></div>
+<div class="b3"></div>
+<div class="b4"></div>
+<div class="b5"></div>
+
+</body>
+</html>
